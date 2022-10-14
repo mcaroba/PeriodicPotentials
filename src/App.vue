@@ -11,7 +11,8 @@
   </div>
   <div style="width: 80%">
       <PeriodicTable
-      @selectionChanged="(element) => updateSelection(element.element, element.selected)"/>
+      @selectionChanged="(element) => updateSelection(element.element, element.selected)"
+      :potentialsAvailableFor=possibleElements />
   </div>
     <!-- use the modal component, pass in the prop -->
     <PotentialDetailModal :show="showModal" :potentialDetails="currentPotential" @close="showModal = false" />      
@@ -33,7 +34,8 @@ export default {
     return {
       selectedElements: [],
       currentPotential: {},
-      showModal: false
+      showModal: false,
+      possibleElements: []
     }
   },
   methods:
@@ -57,6 +59,15 @@ export default {
       this.currentPotential = potential;      
       this.showModal = true;
     },  
+    getPossibleElements()
+    {
+      for(const potential of potentials)
+      {
+        this.possibleElements.push(...potential.elements);
+      }
+      // make unique      
+      this.possibleElements = [... new Set(this.possibleElements)];
+    }
   },
   computed:
   {
@@ -71,8 +82,11 @@ export default {
         }
       }
       return available;
-    }
-  }
+    }    
+  },    
+  created () {
+        this.getPossibleElements();        
+    },
 }
 </script>
 
