@@ -35,9 +35,10 @@ SOFTWARE. -->
               <div class="atomic-number" v-if="element.number">{{ element.number }}</div>
               <div class="symbol" v-if="element.name">{{ element.small }}</div>
               <div class="group" v-else>{{ element.small }}</div>
+              <!--
               <div class="name" v-if="element.name">{{ element.name }}</div>
               <div class="atomic-weight" v-if="element.molar">{{ element.molar }}</div>
-  
+              -->
           </div>
       </div>
     </div>
@@ -118,7 +119,7 @@ SOFTWARE. -->
   @import "bourbon";
   
   body {
-    font-family: 'Ubuntu Mono', monospace;
+    font-family: 'Ubuntu Mono', monospace; font-size: 10px;
   }
   
   a {
@@ -138,12 +139,12 @@ SOFTWARE. -->
     @include margin(null auto);
     max-width: 1600px;
     position: relative;
-    height: 96px;
+    height: 36px;
   }
   
   .element {
     @include position(absolute, 0 null 0 0);
-    @include padding(16px 4px 4px);
+    @include padding(8px 2px 2px);
     width: calc(percentage(calc(1 / 18)) - 8px);
     background-color: rgb(72, 255, 44);  
     opacity: 0.9;
@@ -158,14 +159,15 @@ SOFTWARE. -->
     }
     .atomic-number {
         @include position(absolute, 1px null null 1px);
+        font-size: 10px;
     }
     .electrons {
         @include position(absolute, 1px 1px null null);
         text-align: right;
-        font-size: 10px;
+        font-size: 8px;
     }
     .symbol {
-        font-size: 32px;
+        font-size: 16px;
         line-height: 1.5;
     }
     .group {
@@ -176,11 +178,11 @@ SOFTWARE. -->
         text-align: center;
     }
     .name {
-        font-size: 12px;
+        font-size: 10px;
         line-height: 1.25;
     }
     .atomic-weight {
-        font-size: 12px;
+        font-size: 7px;
         line-height: 1.25;
     }
     &.selected
