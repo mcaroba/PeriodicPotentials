@@ -1,18 +1,19 @@
 <template>
-  <div style="width: 20%; float:right">
-    <h2> Available Potentials </h2>
-    <table style="width:100%">
-      <tr v-if="availablePotentials.length > 0">
-      <td><b> Potential Name</b> </td><td><b>Elements</b></td></tr>
-      <tr v-for ="(potential,key) in availablePotentials" :key="key">
-        <td @click="displayDetails(potential)"><u>{{potential.name}}</u></td> <td>{{potential.elements}}</td>
-      </tr>
-    </table> 
-  </div>
-  <div style="width: 80%">
+  <div style="width: 800px">
       <PeriodicTable
       @selectionChanged="(element) => updateSelection(element.element, element.selected)"
       :potentialsAvailableFor=possibleElements />
+  </div>
+  <div style="width: 800px; height: 240px; overflow-y: scroll">
+    <h2> Available Potentials </h2>
+    <table style="width:100%">
+      <tr v-if="availablePotentials.length > 0">
+      <td><b> Potential Name</b> </td><td><b>Elements</b></td><td><b>Repository</b></td></tr>
+      <tr v-for ="(potential,key) in availablePotentials" :key="key">
+        <td @click="displayDetails(potential)"><u>{{potential.name}}</u></td> <td>{{potential.elements}}</td>
+        <td>{{potential.source}}</td>
+      </tr>
+    </table> 
   </div>
     <!-- use the modal component, pass in the prop -->
     <PotentialDetailModal :show="showModal" :potentialDetails="currentPotential" @close="showModal = false" />      

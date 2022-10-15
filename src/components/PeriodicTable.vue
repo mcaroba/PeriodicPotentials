@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!-- The MIT License (MIT)
 
 Copyright (c) 2022 spAnser (https://codepen.io/spAnser/pen/bqbvOq)
@@ -21,6 +22,8 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE. -->
 
+=======
+>>>>>>> 5757612 (Testing the repo)
 <template>
     <div>
       <div v-for="(period,periodIndex) in table" :key=periodIndex class="period">
