@@ -94,8 +94,9 @@ export default {
       var _this = this;
       readTextFile("https://raw.githubusercontent.com/mcaroba/PeriodicPotentials/main/src/assets/potentials_gap.json", function(text){
           _this.potentials = JSON.parse(text);              
+          _this.getPossibleElements();     
           });                  
-      this.getPossibleElements();        
+         
     },
 }
 </script>
