@@ -21,7 +21,19 @@
 
 <script>
 import PeriodicTable from './components/PeriodicTable.vue'
-import potentials from './assets/potentials.json'
+
+function readTextFile(file, callback) {
+  var rawFile = new XMLHttpRequest();
+  rawFile.overrideMimeType("application/json");
+  rawFile.open("GET", file, true);
+  rawFile.onreadystatechange = function() {
+      if (rawFile.readyState === 4 && rawFile.status == "200") {
+          callback(rawFile.responseText);
+          console.log(rawFile.responseText)
+      }
+  }
+  rawFile.send(null);
+}      
 
 export default {
   name: 'App',
@@ -32,7 +44,10 @@ export default {
   {
     return {
       selectedElements: [],
-      possibleElements: []
+      currentPotential: {},
+      showModal: false,
+      possibleElements: [],
+      potentials: []
     }
   },
   methods:
@@ -52,7 +67,7 @@ export default {
     },
     getPossibleElements()
     {
-      for(const potential of potentials)
+      for(const potential of this.potentials)
       {
         this.possibleElements.push(...potential.elements);
       }
@@ -65,7 +80,7 @@ export default {
     availablePotentials()
     {
       const available = []
-      for(const potential of potentials)
+      for(const potential of this.potentials)
       {
         if(this.selectedElements.every((x) => potential.elements.includes(x)))
         {
@@ -75,8 +90,12 @@ export default {
       return available;
     }    
   },    
-  created () {
-        this.getPossibleElements();        
+  created() {  
+      var _this = this;
+      readTextFile("https://raw.githubusercontent.com/mcaroba/PeriodicPotentials/main/src/assets/potentials_gap.json", function(text){
+          _this.potentials = JSON.parse(text);              
+          });                  
+      this.getPossibleElements();        
     },
 }
 </script>
