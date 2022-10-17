@@ -1,12 +1,1 @@
-[
-    {
-        "name": "First Potential",
-        "elements": ["H", "Li", "C"],
-        "source": "https://arxiv.org/abs/cond-mat/9901319v2"
-    },
-    {
-        "name": "Second Potential",
-        "elements": ["H", "Se", "C"],
-        "source": "https://arxiv.org/abs/cond-mat/blubb"
-    }
-]
+potentials_turbogap.json

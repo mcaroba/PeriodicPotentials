@@ -1,0 +1,33 @@
+[
+    {
+        "name": "Amorphous carbon (general purpose)",
+        "elements": ["C"],
+        "zenodourl": "https://doi.org/10.5281/zenodo.5243184",
+        "zenodoimg": "https://zenodo.org/badge/DOI/10.5281/zenodo.5243184.svg",
+        "url": "https://pubs.acs.org/doi/abs/10.1021/acs.chemmater.1c03279",
+        "ref": "Chem. Mater. 34, 617 (2022)"
+    },
+    {
+        "name": "C60 (general purpose)",
+        "elements": ["C"],
+        "zenodourl": "https://doi.org/10.5281/zenodo.4616343",
+        "zenodoimg": "https://zenodo.org/badge/DOI/10.5281/zenodo.4616343.svg",
+        "url": "https://journals.aps.org/prb/abstract/10.1103/PhysRevB.104.054106",
+        "ref": "Phys. Rev. B 104, 054106 (2021)"
+    },
+    {
+        "name": "Gold (general purpose)",
+        "elements": ["Au"],
+        "zenodourl": "https://doi.org/10.5281/zenodo.6302852",
+        "zenodoimg": "https://zenodo.org/badge/DOI/10.5281/zenodo.6302852.svg",
+        "url": "https://doi.org/10.1039/D2NR01763F",
+        "ref": "Nanoscale 14, 9053 (2022)"
+    },
+    {
+        "name": "Silicon (general purpose)",
+        "elements": ["Si"],
+        "zenodourl": "https://doi.org/10.5281/zenodo.5734463",
+        "zenodoimg": "https://zenodo.org/badge/DOI/10.5281/zenodo.5734463.svg",
+        "ref": "N/A"
+    }
+]

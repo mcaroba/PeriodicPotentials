@@ -1,40 +1,37 @@
 <template>
-  <div style="width: 20%; float:right">
-    <h2> Available Potentials </h2>
-    <table style="width:100%">
+  <div style="width: 800px; height: 200px; margin-bottom: 10px; border:1px solid black; overflow-y: scroll">
+    <h4>Available Potentials (click on elements in periodic table to refine search)</h4>
+    <table style="width: 760px; margin: 10px">
       <tr v-if="availablePotentials.length > 0">
-      <td><b> Potential Name</b> </td><td><b>Elements</b></td></tr>
+      <td><b>Potential Name</b> </td><td><b>Elements</b></td><td><b>Repository</b></td><td><b>Publication</b></td></tr>
       <tr v-for ="(potential,key) in availablePotentials" :key="key">
-        <td @click="displayDetails(potential)"><u>{{potential.name}}</u></td> <td>{{potential.elements}}</td>
+        <td>{{potential.name}}</td>
+        <td>{{potential.elements}}</td>
+        <td><a v-bind:href="potential.zenodourl"><img v-bind:src="potential.zenodoimg" alt="DOI"></a></td>
+        <td><a v-bind:href="potential.url">{{potential.ref}}</a></td>
       </tr>
     </table> 
   </div>
-  <div style="width: 80%">
+  <div style="width: 800px">
       <PeriodicTable
       @selectionChanged="(element) => updateSelection(element.element, element.selected)"
       :potentialsAvailableFor=possibleElements />
   </div>
-    <!-- use the modal component, pass in the prop -->
-    <PotentialDetailModal :show="showModal" :potentialDetails="currentPotential" @close="showModal = false" />      
 </template>
 
 <script>
 import PeriodicTable from './components/PeriodicTable.vue'
 import potentials from './assets/potentials.json'
-import PotentialDetailModal from './components/PotentialDetailModal.vue'
 
 export default {
   name: 'App',
   components: {
-    PeriodicTable,
-    PotentialDetailModal    
+    PeriodicTable,    
   },
   data ()
   {
     return {
       selectedElements: [],
-      currentPotential: {},
-      showModal: false,
       possibleElements: []
     }
   },
@@ -53,12 +50,6 @@ export default {
         }
       }
     },
-    displayDetails(potential)
-    {
-      console.log(potential)
-      this.currentPotential = potential;      
-      this.showModal = true;
-    },  
     getPossibleElements()
     {
       for(const potential of potentials)
@@ -97,7 +88,8 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 table, th, td {
   border: 1px solid black;
