@@ -22,6 +22,7 @@
 <script>
 import PeriodicTable from './components/PeriodicTable.vue'
 
+
 function readTextFile(file, callback) {
   var rawFile = new XMLHttpRequest();
   rawFile.overrideMimeType("application/json");
@@ -92,7 +93,7 @@ export default {
   },    
   created() {  
       var _this = this;
-      readTextFile("https://raw.githubusercontent.com/mcaroba/PeriodicPotentials/main/src/assets/potentials_gap.json", function(text){
+      readTextFile(process.env.VUE_APP_EXT_HTML, function(text){
           _this.potentials = JSON.parse(text);              
           _this.getPossibleElements();     
           });                  
