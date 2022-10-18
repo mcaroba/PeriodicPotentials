@@ -43,7 +43,7 @@ SOFTWARE. -->
   </template>
   
   <script>
-  import data from '../assets/periodicTable.json'
+import data from '../assets/periodicTable.json'
   export default {
     name: 'PeriodicTable',
     props: {
@@ -92,6 +92,7 @@ SOFTWARE. -->
             {
               if(this.potentialsAvailableFor.includes(element.small))
               {
+                console.log("Activating " + element.small)
                 element.available = true;
               }
             }
@@ -108,6 +109,13 @@ SOFTWARE. -->
             return element.group.toLowerCase().replace('element ', '').split(' ')
           }
         }
+    },
+    watch:
+    {
+      potentialsAvailableFor()
+      {
+        this.setupElements();
+      }
     }
   }
   </script>

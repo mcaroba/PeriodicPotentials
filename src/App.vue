@@ -7,7 +7,7 @@
       <tr v-for ="(potential,key) in availablePotentials" :key="key">
         <td>{{potential.name}}</td>
         <td>{{potential.elements}}</td>
-        <td><a v-bind:href="potential.zenodourl"><img v-bind:src="potential.zenodoimg" alt="DOI"></a></td>
+        <td><a v-bind:href="potential.zenodourl"><img v-bind:src="potential.zenodoimg" v-bind:alt="potential.zenodoalt"></a></td>
         <td><a v-bind:href="potential.url">{{potential.ref}}</a></td>
       </tr>
     </table> 
@@ -21,6 +21,7 @@
 
 <script>
 import PeriodicTable from './components/PeriodicTable.vue'
+
 
 function readTextFile(file, callback) {
   var rawFile = new XMLHttpRequest();
@@ -92,10 +93,11 @@ export default {
   },    
   created() {  
       var _this = this;
-      readTextFile("https://raw.githubusercontent.com/mcaroba/PeriodicPotentials/main/src/assets/potentials_gap.json", function(text){
+      readTextFile(process.env.VUE_APP_EXT_HTML, function(text){
           _this.potentials = JSON.parse(text);              
+          _this.getPossibleElements();     
           });                  
-      this.getPossibleElements();        
+         
     },
 }
 </script>
