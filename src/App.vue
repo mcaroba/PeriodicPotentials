@@ -17,6 +17,10 @@
       @selectionChanged="(element) => updateSelection(element.element, element.selected)"
       :potentialsAvailableFor=possibleElements />
   </div>
+  <div style="width: 800px; margin-top: 10px; font-size: 75%; text-align: left">
+  PeriodicPotentials is Copyright (c) 2022 of spAnser, Thomas Pfau and Miguel A. Caro (see
+  <a href="https://github.com/mcaroba/PeriodicPotentials">github.com/mcaroba/PeriodicPotentials</a> for copyright and license information).
+  </div>
 </template>
 
 <script>

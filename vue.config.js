@@ -1,0 +1,1 @@
+vue_gap.config.js
