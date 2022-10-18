@@ -7,8 +7,8 @@
       <tr v-for ="(potential,key) in availablePotentials" :key="key">
         <td>{{potential.name}}</td>
         <td>{{potential.elements}}</td>
-        <td><a v-bind:href="potential.zenodourl"><img v-bind:src="potential.zenodoimg" v-bind:alt="potential.zenodoalt"></a></td>
-        <td><a v-bind:href="potential.url">{{potential.ref}}</a></td>
+        <td><a v-bind:href="potential.zenodourl"><img v-bind:src="potential.zenodoimg" v-bind:alt="potential.zenodoalt" target="_blank"></a></td>
+        <td><a v-bind:href="potential.url" target="_blank">{{potential.ref}}</a></td>
       </tr>
     </table> 
   </div>
@@ -19,7 +19,7 @@
   </div>
   <div style="width: 800px; margin-top: 10px; font-size: 75%; text-align: left">
   PeriodicPotentials is Copyright (c) 2022 of spAnser, Thomas Pfau and Miguel A. Caro (see
-  <a href="https://github.com/mcaroba/PeriodicPotentials">github.com/mcaroba/PeriodicPotentials</a> for copyright and license information).
+  <a href="https://github.com/mcaroba/PeriodicPotentials" target="_blank">github.com/mcaroba/PeriodicPotentials</a> for copyright and license information).
   </div>
 </template>
 
