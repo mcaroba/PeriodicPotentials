@@ -33,5 +33,14 @@
         "zenodoimg": "https://zenodo.org/badge/DOI/10.5281/zenodo.5734463.svg",
         "zenodoalt": "10.5281/zenodo.5734463",
         "ref": "N/A"
+    },
+    {
+        "name": "Phosphorus (general purpose)",
+        "elements": ["P"],
+        "zenodourl": "https://doi.org/10.5281/zenodo.4003703",
+        "zenodoimg": "https://zenodo.org/badge/DOI/10.5281/zenodo.4003703.svg",
+        "zenodoalt": "10.5281/zenodo.4003703",
+        "url": "https://www.nature.com/articles/s41467-020-19168-z",
+        "ref": "Nat. Commun. 11, 5461 (2020)"
     }
 ]
