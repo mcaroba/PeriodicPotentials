@@ -1,6 +1,6 @@
 [
     {
-        "name": "Amorphous carbon (general purpose)",
+        "name": "Amorphous carbon (general purpose, with tabulated pair-wise van der Waals interactions; TurboGAP compatible)",
         "elements": ["C"],
         "zenodourl": "https://doi.org/10.5281/zenodo.5243184",
         "zenodoimg": "https://zenodo.org/badge/DOI/10.5281/zenodo.5243184.svg",
@@ -9,7 +9,7 @@
         "ref": "Chem. Mater. 34, 617 (2022)"
     },
     {
-        "name": "C60 (general purpose)",
+        "name": "C60 (general purpose; TurboGAP compatible, with Hirshfeld volume prediction and Tkatchenko-Scheffler vdW corrections)",
         "elements": ["C"],
         "zenodourl": "https://doi.org/10.5281/zenodo.4616343",
         "zenodoimg": "https://zenodo.org/badge/DOI/10.5281/zenodo.4616343.svg",
@@ -18,7 +18,7 @@
         "ref": "Phys. Rev. B 104, 054106 (2021)"
     },
     {
-        "name": "Gold (general purpose)",
+        "name": "Gold (general purpose; TurboGAP compatible)",
         "elements": ["Au"],
         "zenodourl": "https://doi.org/10.5281/zenodo.6302852",
         "zenodoimg": "https://zenodo.org/badge/DOI/10.5281/zenodo.6302852.svg",
@@ -27,7 +27,7 @@
         "ref": "Nanoscale 14, 9053 (2022)"
     },
     {
-        "name": "Silicon (general purpose)",
+        "name": "Silicon (general purpose; TurboGAP compatible)",
         "elements": ["Si"],
         "zenodourl": "https://doi.org/10.5281/zenodo.5734463",
         "zenodoimg": "https://zenodo.org/badge/DOI/10.5281/zenodo.5734463.svg",
@@ -42,5 +42,86 @@
         "zenodoalt": "10.5281/zenodo.4003703",
         "url": "https://www.nature.com/articles/s41467-020-19168-z",
         "ref": "Nat. Commun. 11, 5461 (2020)"
+    },
+    {
+        "name": "Li@C (the Li-C interaction potential is to be added onto a carbon potential that is not included)",
+        "elements": ["Li", "C"],
+        "zenodourl": "https://www.repository.cam.ac.uk/handle/1810/307758",
+        "zenodoimg": "",
+        "zenodoalt": "10.17863/CAM.54720",
+        "url": "https://doi.org/10.1063/1.5016317",
+        "ref": "J. Chem. Phys. 148, 241714 (2018)"
+    },
+    {
+        "name": "GAP17 (potential for amorphous carbon - not particularly accurate for crystals, and does not include any vdW interaction)",
+        "elements": ["C"],
+        "zenodourl": "https://www.repository.cam.ac.uk/handle/1810/262814",
+        "zenodoimg": "",
+        "zenodoalt": "10.17863/CAM.7453",
+        "url": "https://journals.aps.org/prb/abstract/10.1103/PhysRevB.95.094203",
+        "ref": "Phys. Rev. B 95, 094203 (2017)"
+    },
+    {
+        "name": "Si (a general purpose Si potential)",
+        "elements": ["Si"],
+        "zenodourl": "https://doi.org/10.17863/CAM.65004",
+        "zenodoimg": "",
+        "zenodoalt": "10.17863/CAM.65004",
+        "url": "http://doi.org/10.1103/PhysRevX.8.041048",
+        "ref": "Phys. Rev. X 8, 1939 (2018)"
+    },
+    {
+        "name": "Ge2Sb2Te5 (trained mostly for crystal and amorphous, with some liquid)",
+        "elements": ["Ge", "Sb", "Te"],
+        "zenodourl": "https://www.repository.cam.ac.uk/handle/1810/279038",
+        "zenodoimg": "",
+        "zenodoalt": "10.1021/acs.jpcb.8b06476",
+        "url": "https://doi.org/10.1021/acs.jpcb.8b06476",
+        "ref": "J. Phys. Chem. B 122, 8998 (2018)"
+    },
+    {
+        "name": "HfO2",
+        "elements": ["O", "Hf"],
+        "zenodourl": "https://doi.org/10.6084/m9.figshare.14601579.v1",
+        "zenodoimg": "",
+        "zenodoalt": "10.6084/m9.figshare.14601579.v1",
+        "url": "https://doi.org/10.1103/PhysRevLett.126.156002",
+        "ref": "Phys. Rev. Lett. 126, 156002 (2021)"
+    },
+    {
+        "name": "LiCl",
+        "elements": ["Li", "Cl"],
+        "zenodourl": "https://doi.org/10.6084/m9.figshare.20331246.v1",
+        "zenodoimg": "",
+        "zenodoalt": "10.6084/m9.figshare.20331246.v1",
+        "url": "https://pubs.acs.org/doi/pdf/10.1021/acs.jpclett.1c00901",
+        "ref": "J. Phys. Chem. Lett. 12, 4278 (2021)"
+    },
+    {
+        "name": "LiCl-KCl",
+        "elements": ["Li", "Cl", "K"],
+        "zenodourl": "https://doi.org/10.18126/66pj-gpnr",
+        "zenodoimg": "",
+        "zenodoalt": "10.18126/66pj-gpnr ",
+        "url": "https://journals.aps.org/prb/abstract/10.1103/PhysRevB.106.014209",
+        "ref": "Phys. Rev. B 106, 014209 (2022)"
+    },
+    {
+        "name": "GAP20 (an updated version of the C potential, fitted to the optB88vdW functional)",
+        "elements": ["C"],
+        "zenodourl": "https://www.repository.cam.ac.uk/handle/1810/334766",
+        "zenodoimg": "",
+        "zenodoalt": "10.17863/CAM.82086",
+        "url": "https://aip.scitation.org/doi/10.1063/5.0005084",
+        "ref": "J. Chem. Phys. 153, 034702 (2020)"
+    },
+    {
+        "name": "Si:H (includes a lot of the general Si potential plus interaction with H)",
+        "elements": ["H", "Si"],
+        "zenodourl": "https://github.com/dgunruh/Si-H-GAP",
+        "zenodoimg": "",
+        "zenodoalt": "github.com/dgunruh/Si-H-GAP",
+        "url": "https://journals.aps.org/prmaterials/abstract/10.1103/PhysRevMaterials.6.065603",
+        "ref": "Phys. Rev. Mater. 6, 065603 (2022)"
     }
 ]
