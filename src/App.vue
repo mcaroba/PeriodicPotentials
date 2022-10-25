@@ -1,16 +1,16 @@
 <template>
   <div style="width: 800px">
     <h3>The Periodic Table of GAPs</h3>
-    <h4>Click on the chemical elements in the periodic table to refine your search</h4>
+    <h5>Click on the chemical elements in the periodic table to refine your search</h5>
       <PeriodicTable
       @selectionChanged="(element) => updateSelection(element.element, element.selected)"
       :potentialsAvailableFor=possibleElements />
   </div>
-  <div style="width: 800px; margin-top: 10px; font-size: 75%; text-align: left">
+  <div style="width: 800px; margin-top: 5px; margin-bottom: 10px; font-size: 75%; text-align: left">
   PeriodicPotentials is Copyright (c) 2022 of spAnser, Thomas Pfau and Miguel A. Caro (see
   <a href="https://github.com/mcaroba/PeriodicPotentials" target="_blank">github.com/mcaroba/PeriodicPotentials</a> for copyright and license information).
   </div>
-  <div style="width: 800px; height: 100%; margin-bottom: 10px; border:1px solid black; overflow-y: scroll">
+  <div style="width: 800px; height: 600px; margin-bottom: 10px; border:1px solid black; overflow-y: scroll">
     <h4>Available potentials compatible with your search</h4>
     <table style="width: 760px; margin: 10px">
       <tr v-if="availablePotentials.length > 0">
