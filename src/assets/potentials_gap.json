@@ -71,7 +71,7 @@
         "ref": "Phys. Rev. X 8, 1939 (2018)"
     },
     {
-        "name": "Ge2Sb2Te5 (trained mostly for crystal and amorphous, with some liquid)",
+        "name": "Ge2Sb2Te5",
         "elements": ["Ge", "Sb", "Te"],
         "zenodourl": "https://www.repository.cam.ac.uk/handle/1810/279038",
         "zenodoimg": "",
