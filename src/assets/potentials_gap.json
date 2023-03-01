@@ -132,6 +132,23 @@
         "zenodoalt": "10.5281/zenodo.7415219",
         "url": "https://arxiv.org/abs/2301.11639",
         "ref": "arXiv:2301.11639"
-    }
-
+    },
+    {
+        "name": "Iron (general purpose); TurboGAP compatible",
+        "elements": ["Fe"],
+        "zenodourl": "https://doi.org/10.5281/zenodo.7630369",
+        "zenodoimg": "https://zenodo.org/badge/DOI/10.5281/zenodo.7630369.svg",
+        "zenodoalt": "10.5281/zenodo.7630369",
+        "url": "N/A",
+        "ref": "N/A"
+    },
+    {
+        "name": "Metadynamics enchanced DFT-SCAN accurate GAP model for liquid and amorphous HfO2",
+        "elements": ["Hf", "O"],
+        "zenodourl": "https://figshare.com/articles/dataset/Metadynamics_enhanced_training_Dataset_and_DFT-SCAN_accurate_GAP_Model_for_amorphous_and_liquid_HfO2/22191778",
+        "zenodoimg": "",
+        "zenodoalt": "10.7566/JPSJ.91.091009",
+        "url": "https://journals.jps.jp/doi/abs/10.7566/JPSJ.91.091009",
+        "ref": "Journal of the Physical Society of Japan, 91, 091009 (2022)"
+     }
 ]
