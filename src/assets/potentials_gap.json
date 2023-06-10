@@ -130,8 +130,8 @@
         "zenodourl": "https://doi.org/10.5281/zenodo.7415219",
         "zenodoimg": "https://zenodo.org/badge/DOI/10.5281/zenodo.7415219.svg",
         "zenodoalt": "10.5281/zenodo.7415219",
-        "url": "https://arxiv.org/abs/2301.11639",
-        "ref": "arXiv:2301.11639"
+        "url": "https://doi.org/10.1063/5.0143891",
+        "ref": "J. Chem. Phys. 158, 134704 (2023)"
     },
     {
         "name": "Iron (general purpose); TurboGAP compatible",
