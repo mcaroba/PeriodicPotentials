@@ -150,14 +150,5 @@
         "zenodoalt": "10.7566/JPSJ.91.091009",
         "url": "https://journals.jps.jp/doi/abs/10.7566/JPSJ.91.091009",
         "ref": "Journal of the Physical Society of Japan, 91, 091009 (2022)"
-     },
-     {
-        "name": " C-doped Boron Nitride (BNC)",
-        "elements": ["B,N,C"],
-        "zenodourl": "https://doi.org/10.5281/zenodo.7500739",
-        "zenodoimg": " https://zenodo.org/badge/DOI/10.5281/zenodo.7500739.svg",
-        "zenodoalt": "https://doi.org/10.5281/zenodo.7500739",
-        "url": " https://pubs.rsc.org/en/content/articlelanding/2023/NH/D2NH00520D",
-        "ref": "Nanoscale Horiz., 2023,8, 361-367"
      }
 ]
