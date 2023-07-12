@@ -159,5 +159,37 @@
         "zenodoalt": "https://doi.org/10.5281/zenodo.7500739",
         "url": "https://pubs.rsc.org/en/content/articlelanding/2023/NH/D2NH00520D",
         "ref": "Nanoscale Horiz., 2023, 8, 361-367"
+     },
+     {  "name": "AL4GAP generated DFT-SCAN accurate GAP model for molten NaCl–CaCl2",
+        "elements": ["Na", "Ca", "Cl"],
+        "zenodourl": "https://doi.org/10.6084/m9.figshare.22534981.v1",
+        "zenodoimg": "N/A",
+        "zenodoalt": "DOI:10.1063/5.0153021",
+        "url": "https://doi.org/10.1063/5.0153021",
+        "ref": "J. Chem. Phys. 159, 024802 (2023)"
+     },
+     {  "name": "AL4GAP generated DFT-SCAN accurate GAP model for molten KCl–NdCl3",
+        "elements": ["K", "Nd", "Cl"],
+        "zenodourl": "https://doi.org/10.6084/m9.figshare.22534981.v1",
+        "zenodoimg": "N/A",
+        "zenodoalt": "DOI:10.1063/5.0153021",
+        "url": "https://doi.org/10.1063/5.0153021",
+        "ref": "J. Chem. Phys. 159, 024802 (2023)"
+     },
+     {  "name": "AL4GAP generated DFT-SCAN accurate GAP model for molten CaCl2–NdCl3",
+        "elements": ["Ca", "Nd", "Cl"],
+        "zenodourl": "https://doi.org/10.6084/m9.figshare.22534981.v1",
+        "zenodoimg": "N/A",
+        "zenodoalt": "DOI:10.1063/5.0153021",
+        "url": "https://doi.org/10.1063/5.0153021",
+        "ref": "J. Chem. Phys. 159, 024802 (2023)"
+     },
+     {  "name": "AL4GAP generated DFT-SCAN accurate GAP model for molten KCl–ThCl4", 
+        "elements": ["K", "Th", "Cl"],
+        "zenodourl": "https://doi.org/10.6084/m9.figshare.22534981.v1",
+        "zenodoimg": "N/A",
+        "zenodoalt": "DOI:10.1063/5.0153021",
+        "url": "https://doi.org/10.1063/5.0153021",
+        "ref": "J. Chem. Phys. 159, 024802 (2023)"
      }
 ]
