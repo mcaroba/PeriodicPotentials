@@ -200,5 +200,50 @@
         "zenodoalt": "10.5281/zenodo.10456068",
         "url": "",
         "ref": ""
+    },
+    {
+        "name": "2-D graphene (general purpose)",
+        "elements": ["C"],
+        "zenodourl": "https://doi.org/10.5281/zenodo.7567513",
+        "zenodoimg": "https://zenodo.org/badge/DOI/10.5281/zenodo.7567513.svg",
+        "zenodoalt": "10.5281/zenodo.7567513",
+        "url": "https://pubs.rsc.org/en/content/articlelanding/2023/nr/d3nr00399j",
+        "ref": " Nanoscale, 2023,15, 8772-8780"
+    },
+    {
+        "name": "2-D silicene (general purpose)",
+        "elements": ["Si"],
+        "zenodourl": "https://doi.org/10.5281/zenodo.7567513",
+        "zenodoimg": "https://zenodo.org/badge/DOI/10.5281/zenodo.7567513.svg",
+        "zenodoalt": "10.5281/zenodo.7567513",
+        "url": "https://pubs.rsc.org/en/content/articlelanding/2023/nr/d3nr00399j",
+        "ref": " Nanoscale, 2023,15, 8772-8780"
+    },
+    {
+        "name": "2-D h-BN (general purpose)",
+        "elements": ["B", "N"],
+        "zenodourl": "https://doi.org/10.5281/zenodo.7567513",
+        "zenodoimg": "https://zenodo.org/badge/DOI/10.5281/zenodo.7567513.svg",
+        "zenodoalt": "10.5281/zenodo.7567513",
+        "url": "https://pubs.rsc.org/en/content/articlelanding/2023/nr/d3nr00399j",
+        "ref": " Nanoscale, 2023,15, 8772-8780"
+    },
+    {
+        "name": "2-D h-AlN (general purpose)",
+        "elements": ["Al", "N"],
+        "zenodourl": "https://doi.org/10.5281/zenodo.7567513",
+        "zenodoimg": "https://zenodo.org/badge/DOI/10.5281/zenodo.7567513.svg",
+        "zenodoalt": "10.5281/zenodo.7567513",
+        "url": "https://pubs.rsc.org/en/content/articlelanding/2023/nr/d3nr00399j",
+        "ref": " Nanoscale, 2023,15, 8772-8780"
+    },
+    {
+        "name": "2-D h-GaN (general purpose)",
+        "elements": ["Ga", "N"],
+        "zenodourl": "https://doi.org/10.5281/zenodo.7567513",
+        "zenodoimg": "https://zenodo.org/badge/DOI/10.5281/zenodo.7567513.svg",
+        "zenodoalt": "10.5281/zenodo.7567513",
+        "url": "https://pubs.rsc.org/en/content/articlelanding/2023/nr/d3nr00399j",
+        "ref": " Nanoscale, 2023,15, 8772-8780"
     }
 ]
