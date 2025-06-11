@@ -58,8 +58,8 @@
         "zenodourl": "https://doi.org/10.5281/zenodo.11184039",
         "zenodoimg": "https://zenodo.org/badge/DOI/10.5281/zenodo.11184039.svg",
         "zenodoalt": "10.5281/zenodo.11184039",
-        "url": "https://doi.org/10.1021/acscatal.4c07859",
-        "ref": "ACS Catal. 15, 9928 (2025)"
+        "url": "",
+        "ref": ""
     },
     {
         "name": "Carbon-oxygen (general purpose)",
@@ -67,25 +67,7 @@
         "zenodourl": "https://doi.org/10.5281/zenodo.10456068",
         "zenodoimg": "https://zenodo.org/badge/DOI/10.5281/zenodo.10456068.svg",
         "zenodoalt": "10.5281/zenodo.10456068",
-        "url": "https://doi.org/10.1021/jacs.4c01897",
-        "ref": "J. Am. Chem. Soc. 146, 14645 (2024)"
-    },
-    {
-        "name": "Carbon-hydrogen (general purpose)",
-        "elements": ["H", "C"],
-        "zenodourl": "https://doi.org/10.5281/zenodo.10925278",
-        "zenodoimg": "https://zenodo.org/badge/DOI/10.5281/zenodo.10925279.svg",
-        "zenodoalt": "10.5281/zenodo.10925278",
-        "url": "https://doi.org/10.1021/acs.chemmater.4c02905",
-        "ref": "Chem. Mater. 37, 1094 (2025)"
-    },
-    {
-        "name": "Phosphorus (general purpose)",
-        "elements": ["P"],
-        "zenodourl": "https://doi.org/10.5281/zenodo.14013796",
-        "zenodoimg": "https://zenodo.org/badge/DOI/10.5281/zenodo.14013797.svg",
-        "zenodoalt": "10.5281/zenodo.14013796",
-        "url": "https://doi.org/10.48550/arXiv.2411.01298",
-        "ref": "arXiv:2411.01298"
+        "url": "",
+        "ref": ""
     }
 ]
