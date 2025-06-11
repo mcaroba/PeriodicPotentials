@@ -1,1 +1,91 @@
-potentials_gap.json
+[
+    {
+        "name": "Amorphous carbon (general purpose)",
+        "elements": ["C"],
+        "zenodourl": "https://doi.org/10.5281/zenodo.5243184",
+        "zenodoimg": "https://zenodo.org/badge/DOI/10.5281/zenodo.5243184.svg",
+        "zenodoalt": "10.5281/zenodo.5243184",
+        "url": "https://pubs.acs.org/doi/abs/10.1021/acs.chemmater.1c03279",
+        "ref": "Chem. Mater. 34, 617 (2022)"
+    },
+    {
+        "name": "C60 (general purpose)",
+        "elements": ["C"],
+        "zenodourl": "https://doi.org/10.5281/zenodo.4616343",
+        "zenodoimg": "https://zenodo.org/badge/DOI/10.5281/zenodo.4616343.svg",
+        "zenodoalt": "10.5281/zenodo.4616343",
+        "url": "https://journals.aps.org/prb/abstract/10.1103/PhysRevB.104.054106",
+        "ref": "Phys. Rev. B 104, 054106 (2021)"
+    },
+    {
+        "name": "Gold (general purpose)",
+        "elements": ["Au"],
+        "zenodourl": "https://doi.org/10.5281/zenodo.6302852",
+        "zenodoimg": "https://zenodo.org/badge/DOI/10.5281/zenodo.6302852.svg",
+        "zenodoalt": "10.5281/zenodo.6302852",
+        "url": "https://doi.org/10.1039/D2NR01763F",
+        "ref": "Nanoscale 14, 9053 (2022)"
+    },
+    {
+        "name": "Silicon (general purpose)",
+        "elements": ["Si"],
+        "zenodourl": "https://doi.org/10.5281/zenodo.5734463",
+        "zenodoimg": "https://zenodo.org/badge/DOI/10.5281/zenodo.5734463.svg",
+        "zenodoalt": "10.5281/zenodo.5734463",
+        "ref": "N/A"
+    },
+    {
+        "name": "Platinum (general purpose)",
+        "elements": ["Pt"],
+        "zenodourl": "https://doi.org/10.5281/zenodo.7415219",
+        "zenodoimg": "https://zenodo.org/badge/DOI/10.5281/zenodo.7415219.svg",
+        "zenodoalt": "10.5281/zenodo.7415219",
+        "url": "https://doi.org/10.1063/5.0143891",
+        "ref": "J. Chem. Phys. 158, 134704 (2023)"
+    },
+    {
+        "name": "Iron (general purpose)",
+        "elements": ["Fe"],
+        "zenodourl": "https://doi.org/10.5281/zenodo.7630369",
+        "zenodoimg": "https://zenodo.org/badge/DOI/10.5281/zenodo.7630369.svg",
+        "zenodoalt": "10.5281/zenodo.7630369",
+        "url": "https://doi.org/10.1103/PhysRevB.107.245421",
+        "ref": "Phys. Rev. B 107, 245421 (2023)"
+    },
+    {
+        "name": "PtAu:H (nanoparticles)",
+        "elements": ["H", "Pt", "Au"],
+        "zenodourl": "https://doi.org/10.5281/zenodo.11184039",
+        "zenodoimg": "https://zenodo.org/badge/DOI/10.5281/zenodo.11184039.svg",
+        "zenodoalt": "10.5281/zenodo.11184039",
+        "url": "https://doi.org/10.1021/acscatal.4c07859",
+        "ref": "ACS Catal. 15, 9928 (2025)"
+    },
+    {
+        "name": "Carbon-oxygen (general purpose)",
+        "elements": ["C", "O"],
+        "zenodourl": "https://doi.org/10.5281/zenodo.10456068",
+        "zenodoimg": "https://zenodo.org/badge/DOI/10.5281/zenodo.10456068.svg",
+        "zenodoalt": "10.5281/zenodo.10456068",
+        "url": "https://doi.org/10.1021/jacs.4c01897",
+        "ref": "J. Am. Chem. Soc. 146, 14645 (2024)"
+    },
+    {
+        "name": "Carbon-hydrogen (general purpose)",
+        "elements": ["H", "C"],
+        "zenodourl": "https://doi.org/10.5281/zenodo.10925278",
+        "zenodoimg": "https://zenodo.org/badge/DOI/10.5281/zenodo.10925279.svg",
+        "zenodoalt": "10.5281/zenodo.10925278",
+        "url": "https://doi.org/10.1021/acs.chemmater.4c02905",
+        "ref": "Chem. Mater. 37, 1094 (2025)"
+    },
+    {
+        "name": "Phosphorus (general purpose)",
+        "elements": ["P"],
+        "zenodourl": "https://doi.org/10.5281/zenodo.14013796",
+        "zenodoimg": "https://zenodo.org/badge/DOI/10.5281/zenodo.14013797.svg",
+        "zenodoalt": "10.5281/zenodo.14013796",
+        "url": "https://doi.org/10.48550/arXiv.2411.01298",
+        "ref": "	arXiv:2411.01298"
+    }
+]
