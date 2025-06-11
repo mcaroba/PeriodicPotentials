@@ -247,7 +247,7 @@
         "ref": " Nanoscale, 2023,15, 8772-8780"
     },
     {
-        "name": "PtAu:H (nanoparticles)",
+        "name": "PtAu:H (nanoparticles; TurboGAP compatible)",
         "elements": ["H", "Pt", "Au"],
         "zenodourl": "https://doi.org/10.5281/zenodo.11184039",
         "zenodoimg": "https://zenodo.org/badge/DOI/10.5281/zenodo.11184039.svg",
@@ -256,7 +256,7 @@
         "ref": "ACS Catal. 15, 9928 (2025)"
     },
     {
-        "name": "Carbon-oxygen (general purpose)",
+        "name": "Carbon-oxygen (general purpose; TurboGAP compatible)",
         "elements": ["C", "O"],
         "zenodourl": "https://doi.org/10.5281/zenodo.10456068",
         "zenodoimg": "https://zenodo.org/badge/DOI/10.5281/zenodo.10456068.svg",
@@ -265,7 +265,7 @@
         "ref": "J. Am. Chem. Soc. 146, 14645 (2024)"
     },
     {
-        "name": "Carbon-hydrogen (general purpose)",
+        "name": "Carbon-hydrogen (general purpose; TurboGAP compatible)",
         "elements": ["H", "C"],
         "zenodourl": "https://doi.org/10.5281/zenodo.10925278",
         "zenodoimg": "https://zenodo.org/badge/DOI/10.5281/zenodo.10925279.svg",
@@ -274,12 +274,12 @@
         "ref": "Chem. Mater. 37, 1094 (2025)"
     },
     {
-        "name": "Phosphorus (general purpose)",
+        "name": "Phosphorus (general purpose; TurboGAP compatible)",
         "elements": ["P"],
         "zenodourl": "https://doi.org/10.5281/zenodo.14013796",
         "zenodoimg": "https://zenodo.org/badge/DOI/10.5281/zenodo.14013797.svg",
         "zenodoalt": "10.5281/zenodo.14013796",
         "url": "https://doi.org/10.48550/arXiv.2411.01298",
-        "ref": "  arXiv:2411.01298"
+        "ref": "arXiv:2411.01298"
     }
 ]
