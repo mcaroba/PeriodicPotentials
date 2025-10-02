@@ -87,5 +87,14 @@
         "zenodoalt": "10.5281/zenodo.14013796",
         "url": "https://doi.org/10.48550/arXiv.2411.01298",
         "ref": "arXiv:2411.01298"
+    },
+    {
+        "name": "CNa (Na intercalation)",
+        "elements": ["C", "Na"],
+        "zenodourl": "https://doi.org/10.5281/zenodo.17159853",
+        "zenodoimg": "https://zenodo.org/badge/DOI/10.5281/zenodo.17159854.svg",
+        "zenodoalt": "10.5281/zenodo.17159854",
+        "url": "",
+        "ref": ""
     }
 ]
