@@ -290,5 +290,23 @@
         "zenodoalt": "10.5281/zenodo.17159854",
         "url": "",
         "ref": ""
+    },
+    {
+        "name": "CLi (Li intercalation; TurboGAP compatible)",
+        "elements": ["C", "Li"],
+        "zenodourl": "https://doi.org/10.5281/zenodo.17799339",
+        "zenodoimg": "https://zenodo.org/badge/DOI/10.5281/zenodo.17799339.svg",
+        "zenodoalt": "10.5281/zenodo.17799339",
+        "url": "",
+        "ref": ""
+    },
+    {
+        "name": "CK (K intercalation; TurboGAP compatible)",
+        "elements": ["C", "K"],
+        "zenodourl": "https://doi.org/10.5281/zenodo.17802205",
+        "zenodoimg": "https://zenodo.org/badge/DOI/10.5281/zenodo.17802205.svg",
+        "zenodoalt": "10.5281/zenodo.17802205",
+        "url": "",
+        "ref": ""
     }
 ]
