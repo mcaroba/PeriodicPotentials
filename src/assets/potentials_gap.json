@@ -308,5 +308,24 @@
         "zenodoalt": "10.5281/zenodo.17802205",
         "url": "",
         "ref": ""
+    },
+    {
+        "name": "CMg (Mg intercalation; TurboGAP compatible)",
+        "elements": ["C", "Mg"],
+        "zenodourl": "https://doi.org/10.5281/zenodo.18215509",
+        "zenodoimg": "https://zenodo.org/badge/DOI/10.5281/zenodo.18215509.svg",
+        "zenodoalt": "https://doi.org/10.5281/zenodo.18215509",
+        "url": "",
+        "ref": ""
+    },
+    {
+        "name": "CZn (Zn intercalation; TurboGAP compatible)",
+        "elements": ["C", "Zn"],
+        "zenodourl": "https://doi.org/10.5281/zenodo.18215577",
+        "zenodoimg": "https://zenodo.org/badge/DOI/10.5281/zenodo.18215577.svg",
+        "zenodoalt": "10.5281/zenodo.18215577",
+        "url": "",
+        "ref": ""
     }
+
 ]
