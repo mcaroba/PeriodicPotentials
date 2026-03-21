@@ -344,5 +344,14 @@
         "zenodoalt": "10.5281/zenodo.17911640",
         "url": "https://pubs.aip.org/aip/apr/article-abstract/12/4/041424/3375425/Thermal-conductivity-limits-of-MoS2-and-MoSe2?redirectedFrom=fulltext",
         "ref": "Appl. Phys. Rev. 12, 041424 (2025)"
+    },
+    {
+        "name": "PdAu:H (nanoparticles; TurboGAP compatible)",
+        "elements": ["H", "Pd", "Au"],
+        "zenodourl": "https://doi.org/10.5281/zenodo.19144744",
+        "zenodoimg": "https://zenodo.org/badge/DOI/10.5281/zenodo.19144744.svg",
+        "zenodoalt": "10.5281/zenodo.19144744",
+        "url": "",
+        "ref": ""
     }
 ]

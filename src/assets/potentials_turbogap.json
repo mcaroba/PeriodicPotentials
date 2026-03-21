@@ -132,5 +132,14 @@
         "zenodoalt": "10.5281/zenodo.18215577",
         "url": "",
         "ref": ""
+    },
+    {
+        "name": "PdAu:H (nanoparticles)",
+        "elements": ["H", "Pd", "Au"],
+        "zenodourl": "https://doi.org/10.5281/zenodo.19144744",
+        "zenodoimg": "https://zenodo.org/badge/DOI/10.5281/zenodo.19144744.svg",
+        "zenodoalt": "10.5281/zenodo.19144744",
+        "url": "",
+        "ref": ""
     }
 ]
